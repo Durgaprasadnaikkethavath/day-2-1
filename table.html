@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .text_heading {
+      /* text-align: center; */
+    }
+
+    .newTable {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .tableName {
+      padding: 12px;
+    }
+  </style>
+  <body>
+    <div class="text_heading">
+      <h1>HTML Table</h1>
+      <p>Person Details Table</p>
+    </div>
+    <table border="2">
+      <tr style="background-color: red">
+        <th>Name</th>
+        <th>ID</th>
+        <th>Course</th>
+        <th>marks</th>
+        <th>contact</th>
+      </tr>
+      <tr>
+        <td>durga</td>
+        <td>93</td>
+        <td>javascript</td>
+        <td>97</td>
+        <td>durga@gmail.com</td>
+      </tr>
+      <tr>
+        <td>total</td>
+        <td colspan="3">97</td>
+      </tr>
+    </table>
+    <h1>Home work class</h1>
+    <table border="1" class="newTable">
+      <tr>
+        <th style="background-color: #ffd8a8" class="tableName">Heading1</th>
+        <th class="tableName">Heading2</th>
+        <th class="tableName">Heading3</th>
+      </tr>
+      <tr>
+        <td class="tableName" style="background-color: #ffd8a8">Data 1</td>
+        <td class="tableName">Data 2</td>
+        <td class="tableName">Data 3</td>
+      </tr>
+      <tr>
+        <td class="tableName" style="background-color: #ffd8a8">Data 4</td>
+        <td class="tableName">Data 5</td>
+        <td class="tableName">Data 6</td>
+      </tr>
+    </table>
+  </body>
+</html>
